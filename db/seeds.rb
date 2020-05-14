@@ -30,7 +30,7 @@ puts "5 skills created"
         subtitle: "My greate service",
         body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
         main_image: "http://placehold.it/600x400",
-        thumb_image: "http://placehold.it/350x20"
+        thumb_image: "http://placehold.it/350x200"
     )
 end
 
