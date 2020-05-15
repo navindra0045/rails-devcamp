@@ -62,6 +62,7 @@ GEM
       activerecord (>= 4.0.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    hirb (0.7.3)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.4)
@@ -190,6 +191,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   friendly_id (~> 5.2.4)
+  hirb (~> 0.7.3)
   jbuilder (~> 2.5)
   pg (>= 0.18, < 2.0)
   puma (~> 3.7)
