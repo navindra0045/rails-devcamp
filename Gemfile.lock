@@ -57,6 +57,7 @@ GEM
     e2mmap (0.1.0)
     erubi (1.9.0)
     execjs (2.7.0)
+    ffi (1.12.2)
     ffi (1.12.2-x86-mingw32)
     friendly_id (5.2.5)
       activerecord (>= 4.0.0)
@@ -79,13 +80,17 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.0)
     nio4r (2.5.2)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.9-x86-mingw32)
       mini_portile2 (~> 2.4.0)
     parallel (1.19.1)
     parser (2.7.1.2)
       ast (~> 2.4.0)
+    pg (1.2.3)
     pg (1.2.3-x86-mingw32)
-    puma (3.12.4)
+    puma (4.3.12)
+      nio4r (~> 2.0)
     rack (2.2.2)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -186,6 +191,7 @@ GEM
 
 PLATFORMS
   x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   byebug
@@ -194,7 +200,7 @@ DEPENDENCIES
   hirb (~> 0.7.3)
   jbuilder (~> 2.5)
   pg (>= 0.18, < 2.0)
-  puma (~> 3.7)
+  puma (~> 4.3)
   rails (~> 5.1.7)
   rubocop (>= 0.81.0)
   sass-rails (~> 5.0)
